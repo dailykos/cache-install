@@ -22,7 +22,7 @@ function printInfo(s) {
 
 const paths = [
   '/nix/store/',
-  '/nix/var/nix/profiles/per-user/' + process.env.USER + '/profile/bin',
+  '/nix/var/nix/profiles/per-user/' + process.env.USER + '/profile/',
   '/nix/var/nix/profiles/default/bin/',
   '/nix/var/nix/profiles/per-user/root/channels'
 ]
